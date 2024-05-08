@@ -2,9 +2,9 @@ show_host() {
   local index icon color text module
 
   index=$1
-  icon=$(get_tmux_option "@catppuccin_host_icon" "󰒋")
-  color=$(get_tmux_option "@catppuccin_host_color" "$thm_magenta")
-  text=$(get_tmux_option "@catppuccin_host_text" "#H")
+  icon=$(get_tmux_option "@gruvboxm_host_icon" "󰒋")
+  color=$(get_tmux_option "@gruvboxm_host_color" "$thm_magenta")
+  text=$(get_tmux_option "@gruvboxm_host_text" "#H")
 
   module=$(build_status_module "$index" "$icon" "$color" "$text")
 
